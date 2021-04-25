@@ -13,7 +13,7 @@
                                 <div class="footer-menu">
                                     <nav>
                                         <ul class="navigation">
-                                            <li><a href="index.php">Home</a>
+                                            <li><a href="?admin=client&mod=home&act=index">Trang chủ</a>
                                             </li>
                                             <li><a href="?admin=client&mod=home&act=category">Danh mục</a></li>
                                             <li><a href="?admin=client&mod=home&act=movie">Phim Lẻ</a></li>
@@ -23,7 +23,7 @@
                                         </ul>
                                         <div class="footer-search">
                                             <form action="?admin=client&mod=home&act=search" method="POST">
-                                                <input type="text" placeholder="Find Favorite Movie">
+                                                <input type="text" placeholder="Tìm kiếm phim bạn yêu thích">
                                                 <button><i class="fas fa-search"></i></button>
                                             </form>
                                         </div>

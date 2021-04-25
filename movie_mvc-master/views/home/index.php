@@ -37,7 +37,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <a href="<?= $three->source->source?>" class="banner-btn btn popup-video" data-animation="fadeInUp" data-delay=".8s"><i class="fas fa-play"></i> Watch Now</a>
+                                    <a href="<?= $three->source->source?>" class="banner-btn btn popup-video" data-animation="fadeInUp" data-delay=".8s"><i class="fas fa-play"></i> Xem Ngay</a>
                                 </div>
                             </div>
                         </div>
@@ -54,7 +54,7 @@
             <div class="row align-items-end mb-55">
                 <div class="col-lg-6">
                     <div class="section-title title-style-three text-center text-lg-left">
-                        <span class="sub-title">ONLINE FILM</span>
+                        <span class="sub-title">PHIM TRỰC TUYẾN</span>
                         <h2 class="title">Phim Mới Phát Hành</h2>
                     </div>
                 </div>
@@ -168,7 +168,7 @@
                 <div class="col-lg-8">
                     <div class="section-title title-style-three text-center mb-70">
                         <span class="sub-title">top rated movies</span>
-                        <h2 class="title">Top Online Shows Watch</h2>
+                        <h2 class="title">Top Phim Được Xem Nhiều Nhất</h2>
                     </div>
                 </div>
             </div>
@@ -179,8 +179,8 @@
                             <div class="movie-poster">
                                 <img src="<?= "uploads/".$top->image?>" style="height: 270px;">
                                 <ul class="overlay-btn">
-                                    <li><a href="<?= $top->source->source?>" class="popup-video btn">Watch Now</a></li>
-                                    <li><a href="?admin=client&mod=home&act=detail&slug=<?= $top->slug?>" class="btn">Details</a></li>
+                                    <li><a href="<?= $top->source->source?>" class="popup-video btn">Xem Ngay</a></li>
+                                    <li><a href="?admin=client&mod=home&act=detail&slug=<?= $top->slug?>" class="btn">Chi Tiết</a></li>
                                 </ul>
                             </div>
                             <div class="movie-content">

@@ -61,7 +61,7 @@
                       <?= $cate->parent?>
                     </td>
                     <td class="hidden-phone"><?= $cate->description?></td>
-                    <td>>
+                    <td>
                       <button class="btn btn-warning btn-xs"><a href="?admin=admin&mod=category&act=edit&id=<?= $cate->id ?>"><i class="fa fa-pencil"></i></a></button>
                       <button class="btn btn-danger btn-xs"><a href="?admin=admin&mod=category&act=destroy&id=<?= $cate->id ?>"><i class="fa fa-trash-o "></i></a></button>
                     </td>

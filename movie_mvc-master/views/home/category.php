@@ -12,7 +12,7 @@
                                 <h2 class="title">Danh <span>Mục</span></h2>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="index.php">Trang chủ</a></li>
                                         <li class="breadcrumb-item active" aria-current="page">danh mục</li>
                                     </ol>
                                 </nav>
@@ -30,7 +30,7 @@
                         <div class="col-lg-3">
                             <div class="section-title text-center text-lg-left">
                                 <!-- <span class="sub-title"></span> -->
-                                <h2 class="title">ONLINE MOVIE</h2>
+                                <h2 class="title">PHIM TRỰC TUYẾN</h2>
                             </div>
                         </div>
                         <div class="col-lg-9">
@@ -55,8 +55,8 @@
                                 <div class="movie-poster">
                                     <img src="<?= "uploads/".$hd->image?>" style="width: 310px; height: 350px;">
                                     <ul class="overlay-btn">
-                                        <li><a href="<?= $hd->source->source ?>" class="popup-video btn">Watch Now</a></li>
-                                        <li><a href="?admin=client&mod=home&act=detail&slug=<?= $hd->slug?>" class="btn">Details</a></li>
+                                        <li><a href="<?= $hd->source->source ?>" class="popup-video btn">Xem Ngay</a></li>
+                                        <li><a href="?admin=client&mod=home&act=detail&slug=<?= $hd->slug?>" class="btn">Chi Tiết</a></li>
                                     </ul>
                                 </div>
                                 <div class="movie-content">
@@ -81,8 +81,8 @@
                                 <div class="movie-poster">
                                     <img src="<?= "uploads/".$hh->image?>" style="width: 310px; height: 350px;">
                                     <ul class="overlay-btn">
-                                        <li><a href="<?php echo $hh->source->source;?>" class="popup-video btn">Watch Now</a></li>
-                                        <li><a href="?admin=client&mod=home&act=detail&slug=<?= $hh->slug?>" class="btn">Details</a></li>
+                                        <li><a href="<?php echo $hh->source->source;?>" class="popup-video btn">Xem Ngay</a></li>
+                                        <li><a href="?admin=client&mod=home&act=detail&slug=<?= $hh->slug?>" class="btn">Chi Tiết</a></li>
                                     </ul>
                                 </div>
                                 <div class="movie-content">
@@ -107,8 +107,8 @@
                                 <div class="movie-poster">
                                     <img src="<?= "uploads/".$ct->image?>" style="width: 310px; height: 350px;">
                                     <ul class="overlay-btn">
-                                        <li><a href="<?php echo $ct->source->source; ?>" class="popup-video btn">Watch Now</a></li>
-                                        <li><a href="?admin=client&mod=home&act=detail&slug=<?= $ct->slug?>" class="btn">Details</a></li>
+                                        <li><a href="<?php echo $ct->source->source; ?>" class="popup-video btn">Xem Ngay</a></li>
+                                        <li><a href="?admin=client&mod=home&act=detail&slug=<?= $ct->slug?>" class="btn">Chi Tiết</a></li>
                                     </ul>
                                 </div>
                                 <div class="movie-content">
@@ -134,8 +134,8 @@
                                 <div class="movie-poster">
                                     <img src="<?= "uploads/".$tl->image?>" style="width: 310px; height: 350px;">
                                     <ul class="overlay-btn">
-                                        <li><a href="<?php echo $tl->source->source; ?>" class="popup-video btn">Watch Now</a></li>
-                                        <li><a href="?admin=client&mod=home&act=detail&slug=<?= $tl->slug?>" class="btn">Details</a></li>
+                                        <li><a href="<?php echo $tl->source->source; ?>" class="popup-video btn">Xem Ngay</a></li>
+                                        <li><a href="?admin=client&mod=home&act=detail&slug=<?= $tl->slug?>" class="btn">Chi Tiết</a></li>
                                     </ul>
                                 </div>
                                 <div class="movie-content">
@@ -161,8 +161,8 @@
                                 <div class="movie-poster">
                                     <img src="<?= "uploads/".$kh->image?>" style="width: 310px; height: 350px;">
                                     <ul class="overlay-btn">
-                                        <li><a href="<?php echo $kh->source->source; ?>" class="popup-video btn">Watch Now</a></li>
-                                        <li><a href="?admin=client&mod=home&act=detail&slug=<?= $kh->slug?>" class="btn">Details</a></li>
+                                        <li><a href="<?php echo $kh->source->source; ?>" class="popup-video btn">Xem Ngay</a></li>
+                                        <li><a href="?admin=client&mod=home&act=detail&slug=<?= $kh->slug?>" class="btn">Chi Tiết</a></li>
                                     </ul>
                                 </div>
                                 <div class="movie-content">
@@ -191,7 +191,7 @@
                                         <li><a href="#">2</a></li>
                                         <li><a href="#">3</a></li>
                                         <li><a href="#">4</a></li>
-                                        <li><a href="#">Next</a></li>
+                                        <li><a href="#">Tiếp</a></li>
                                     </ul>
                                 </nav>
                             </div>

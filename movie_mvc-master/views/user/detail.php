@@ -76,10 +76,6 @@
 				                <input type="email" class="form-control round-form" id="" placeholder="" name="email" value="<?= $user->email ?>">
 				            </div>
 				            <div class="form-group">
-				                <label for="">Mật khẩu</label>
-				                <input type="password" class="form-control round-form" id="" placeholder="" name="pass" value="<?= $user->password ?>">
-				            </div>
-				            <div class="form-group">
 				                <label for="">Ảnh đại diện</label>
 				                <br>
 				                <img class="fileupload-preview fileupload-exists thumbnail" src="<?= "uploads/".$user->avatar ?>" alt="" width="100px" height="100px">

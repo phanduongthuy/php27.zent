@@ -36,10 +36,10 @@ require_once 'views/require/back-end/header.php';
                 <thead>
                   <tr>
                     <th><i class="fa fa-bookmark"></i> ID</th>
-                    <th><i class="fa fa-picture-o"></i> Tên video</th>
+                    <th><i class="fa fa-picture-o"></i> Tên tập phim</th>
                     <th><i class="fa fa-television"></i> Tên Phim</th>
                     <th><i class="fa fa-question-circle"> Mô tả</th>
-                    <th><i class="fa fa-link"></i> Nguồn</th>
+                    <th><i class="fa fa-link"></i> Link video </th>
                     <th><i class="fa fa-user"></i> Người tạo</th>
                     <th><i class=" fa fa-edit"></i> Hành động</th>
                     <th></th>

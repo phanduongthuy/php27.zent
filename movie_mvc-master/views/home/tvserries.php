@@ -17,7 +17,7 @@
                         <h2 class="title">Phim <span>Bộ</span></h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                                <li class="breadcrumb-item"><a href="?admin=client&mod=home&act=index">Home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Phim bộ</li>
                             </ol>
                         </nav>
@@ -38,8 +38,8 @@
                         <div class="movie-poster">
                             <img src="<?= "uploads/".$movie->image?>" style="width: 310px; height: 350px;">
                             <ul class="overlay-btn">
-                                <li><a href="<?= $movie->source->source?>" class="popup-video btn">Watch Now</a></li>
-                                <li><a href="?admin=client&mod=home&act=detail&slug=<?= $movie->slug?>" class="btn">Details</a></li>
+                                <li><a href="<?= $movie->source->source?>" class="popup-video btn">Xem Ngay</a></li>
+                                <li><a href="?admin=client&mod=home&act=detail&slug=<?= $movie->slug?>" class="btn">Chi Tiết</a></li>
                             </ul>
                         </div>
                         <div class="movie-content">
@@ -69,7 +69,7 @@
                                 <li><a href="#">2</a></li>
                                 <li><a href="#">3</a></li>
                                 <li><a href="#">4</a></li>
-                                <li><a href="#">Next</a></li>
+                                <li><a href="#">Tiếp</a></li>
                             </ul>
                         </nav>
                     </div>

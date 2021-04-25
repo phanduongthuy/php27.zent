@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="Dashboard">
   <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
-  <title>Admin-movie</title>
+  <title>Quản lí phim</title>
 
   <!-- Favicons -->
   <link href="public/back-end/img/zoom.png" rel="icon">
@@ -43,7 +43,7 @@
         <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
       </div>
       <!--logo start-->
-      <a href="index.html" class="logo"><b>PT-<span>flix</span></b></a>
+      <a href="?admin=admin&mod=admin&act=admin" class="logo"><b>PT-<span>flix</span></b></a>
       <!--logo end-->
       <div class="nav notify-row" id="top_menu">
         <!--  notification start -->
@@ -80,7 +80,7 @@
       </div>
       <div class="top-menu">
         <ul class="nav pull-right top-menu">
-          <li><a class="logout" href="?admin=auth&mod=logout&act=logout">Logout</a></li>
+          <li><a class="logout" href="?admin=auth&mod=logout&act=logout">Đăng xuất</a></li>
         </ul>
       </div>
     </header>

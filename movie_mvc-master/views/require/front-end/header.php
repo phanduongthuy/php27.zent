@@ -58,7 +58,7 @@
                                     </div>
                                     <div class="navbar-wrap main-menu d-none d-lg-flex">
                                         <ul class="navigation">
-                                            <li class="active menu-item-has-children"><a href="index.php">Home</a>
+                                            <li class="active menu-item-has-children"><a href="?admin=client&mod=home&act=index">Trang chủ</a>
                                             </li>
                                             <li class="menu-item-has-children"><a href="?admin=client&mod=home&act=category">Danh mục</a></li>
                                             <li class="menu-item-has-children"><a href="?admin=client&mod=home&act=movie">Phim Lẻ</a></li>
@@ -72,7 +72,7 @@
                                             <li class="d-none d-xl-block">
                                                 <div class="footer-search">
                                                     <form action="?admin=client&mod=home&act=search" method="POST"> 
-                                                        <input type="text" placeholder="Find Favorite Movie" name="search">
+                                                        <input type="text" placeholder="Tìm kiếm phim bạn yêu thích" name="search">
                                                         <button><i class="fas fa-search"></i></button>
                                                     </form>
                                                 </div>
@@ -88,7 +88,7 @@
                                                     </select>
                                                 </form>
                                             </li>
-                                            <li class="header-btn"><a href="?admin=auth&mod=login&act=loginForm" class="btn">Sign In</a></li>
+                                            <li class="header-btn"><a href="?admin=auth&mod=login&act=loginForm" class="btn">ĐĂng nhập</a></li>
                                         </ul>
                                     </div>
                                 </nav>

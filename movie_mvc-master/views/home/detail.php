@@ -58,50 +58,44 @@ require_once 'views/require/front-end/header.php';
 
     <!-- episode-area -->
 
-            <section class="episode-area episode-bg" data-background="public/front-end/images/episode_bg.jpg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <div class="movie-episode-wrap">
-                                <div class="episode-top-wrap">
-                                    <div class="section-title">
-                                        <span class="sub-title">ONLINE FILM</span>
+    <section class="episode-area episode-bg" data-background="public/front-end/images/episode_bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="movie-episode-wrap">
+                        <div class="episode-top-wrap">
+                            <div class="section-title">
+                                <span class="sub-title">ONLINE FILM</span>
 
-                                        <h2 class="title">Xem Full Tại Đây</h2>
+                                <h2 class="title">Xem Full Tại Đây</h2>
+                            </div>
+                         
+                            <div class="total-views-count">
+                                <p><?=$value->view_count ?><i class="far fa-eye"></i></p>
+                            </div>
+                        </div>
+                        <div class="episode-watch-wrap">
+                            <div class="accordion" id="accordionExample">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <button class="btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <span class="video-count">Các tập khác</span>
+                                        </button>
                                     </div>
-                                 
-                                    <div class="total-views-count">
-                                        <p><?=$value->view_count ?><i class="far fa-eye"></i></p>
-                                    </div>
-                                </div>
-                                <div class="episode-watch-wrap">
-                                    <div class="accordion" id="accordionExample">
-                                        <div class="card">
-                                            <div class="card-header" id="headingOne">
-                                                <button class="btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                    <span class="video-count">Các video khác</span>
-                                                </button>
-                                            </div>
-                                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                                <div class="card-body">
-                                                    <ul>
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <ul>
 
-                                                 <?php foreach ($tab as $value) { ?>
-                                                
-                                                <li><a href="<?= $value->source?>" class="popup-video"><i class="fas fa-play"></i> <?= $value->tentap?></a> <span class="duration"><i class="far fa-clock"></i> <?=$value->time ?> Min</span></li>
-                                                <?php } ?>
-                                                </ul>
-                                    </div>
+                                         <?php foreach ($tab as $value) { ?>
+                                        
+                                        <li><a href="<?= $value->source?>" class="popup-video"><i class="fas fa-play"></i> <?= $value->tentap?></a> <span class="duration"><i class="far fa-clock"></i> <?=$value->time ?> Min</span></li>
+                                        <?php } ?>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-    
-        <div class="col-lg-4">
-            <div class="episode-img">
-                <img src="images/episode_img.jpg" alt>
             </div>
         </div>
     </div>

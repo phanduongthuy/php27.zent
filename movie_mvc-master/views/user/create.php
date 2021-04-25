@@ -30,7 +30,7 @@ require_once 'views/require/back-end/header.php';
             </div>
             <div class="form-group">
                 <label for="">Mật khẩu</label>
-                <input type="password" class="form-control round-form" id="" placeholder="" name="pass">
+                <input type="password" class="form-control round-form" id="" placeholder="" name="password">
             </div>
             <div class="form-group">
                 <label for="">Ảnh đại diện</label>

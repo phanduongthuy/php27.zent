@@ -4,7 +4,7 @@
 	class User extends Model{
 		var $table = 'users';
 		public function create($data) {
-			$sql = "INSERT INTO users(name,birdth,address,email,password,avatar) VALUES ('".$data['name']."','".$data['birdth']."','".$data['address']."','".$data['email']."','".md5($data['pass'])."', '".$data['avatar']."')";
+			$sql = "INSERT INTO users(name,birdth,address,email,password,avatar) VALUES ('".$data['name']."','".$data['birdth']."','".$data['address']."','".$data['email']."','".md5($data['password'])."', '".$data['avatar']."')";
 
 			return $this->connection->query($sql);
 		}
