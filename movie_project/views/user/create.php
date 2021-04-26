@@ -36,6 +36,13 @@ require_once 'views/require/back-end/header.php';
                 <label for="">Ảnh đại diện</label>
                 <input type="file" class="form-control round-form" id="" placeholder="" name="avatar">
             </div>
+            <div class="form-group">
+                <label for="">Chức vụ</label>
+                <select name="permission" id="permission" class="form-control" >
+                    <option value="1">Quản lý</option>
+                    <option value="0">Nhân viên</option>
+                </select>
+            </div>
             <button type="submit" class="btn btn-primary">Tạo mới</button>
         </form>
         

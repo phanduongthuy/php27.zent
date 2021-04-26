@@ -35,6 +35,13 @@ require_once 'views/require/back-end/header.php';
                 <img class="fileupload-preview fileupload-exists thumbnail" src="<?= "uploads/".$user->avatar ?>" alt="" width="100px" height="100px">
                 <input type="file" class="form-control round-form" id="" placeholder="" name="avatar">
             </div>
+            <div class="form-group">
+                <label for="">Chức vụ</label>
+                <select name="permission" id="permission" class="form-control" >
+                    <option value="1">Quản lý</option>
+                    <option value="0">Nhân viên</option>
+                </select>
+            </div>
             <button type="submit" class="btn btn-primary">Cập nhật</button>
         </form>
         

@@ -37,10 +37,9 @@ require_once 'views/require/back-end/header.php';
                   <tr>
                     <th><i class="fa fa-bookmark"></i> ID</th>
                     <th><i class="fa fa-user"></i> Họ và tên</th> 
-                    <th><i class="fa fa-birthday-cake"></i> Ngày sinh</th> 
-                    <th><i class="fa fa-map-marker"></i> Địa chỉ</th> 
                     <th><i class="fa fa-check"></i> Địa chỉ email</th>
                     <th><i class="fa fa-picture-o"></i> Ảnh đại diện</th>
+                    <th><i class="fa fa-user"></i> Chức vụ</th>
                     <th><i class=" fa fa-edit"></i> Hành động</th>
                     <th></th>
                   </tr>
@@ -51,13 +50,15 @@ require_once 'views/require/back-end/header.php';
                        <tr>
                         <td><?= $user->id ?></td>
                         <td><?= $user->name ?></td>
-                        <td><?= $user->birdth ?></td>
-                        <td><?= $user->address ?></td>
                         <td><?= $user->email ?></td>
                         <td>
                             <!-- <img src="" width="100px" height="100px"> -->
                             <img src="<?= "uploads/".$user->avatar ?>" width="50px" height="50px" class="rounded-circle">
                         </td>
+                        <td><?php if ($user->permission == 1){
+                          echo "Quản lý";
+                        }else{echo "Nhân viên";} ?></td>
+
                     <td>
                       <button class="btn btn-success btn-xs"><a href="?admin=admin&mod=user&act=detail&id=<?= $user->id ?>"><i class="fa fa-check"></i></a></button>
                       <button class="btn btn-warning btn-xs"><a href="?admin=admin&mod=user&act=edit&id=<?= $user->id ?>"><i class="fa fa-pencil"></i></a></button>

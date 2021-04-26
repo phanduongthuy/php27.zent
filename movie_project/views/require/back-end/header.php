@@ -101,7 +101,9 @@
               <span>Trang chủ</span>
               </a>
           </li> 
-          <hr class="sidebar-divider" width="80%">
+          <?php 
+            if ($_SESSION['auth']->permission == 1) {
+              echo '<hr class="sidebar-divider" width="80%">
           <li class="sub-menu">
             <div class="sidebar-heading"><i>Nhân sự</i></div>
             <a href="javascript:;">
@@ -112,7 +114,9 @@
               <li><a href="?admin=admin&mod=user&act=list"><i class="fa fa-list"></i> Xem danh sách</a></li>
               <li><a href="?admin=admin&mod=user&act=create"><i class="fa fa-plus"></i> Tạo mới</a></li>
             </ul>
-          </li>
+          </li>';
+            }
+           ?>
          <hr class="sidebar-divider" width="80%">
           <li class="sub-menu">
              <div class="sidebar-heading"><i>Tài nguyên</i></div>
